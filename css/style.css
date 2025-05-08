@@ -87,18 +87,33 @@ h6 {
   margin: 0 auto;
 }
 /* Top Bar Start */
-.top-nav-wwrapper {
+.top-nav-wrapper {
   background-color: var(--color-primary);
-  padding: 10px 0;
 }
-
+.top-nav-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
 .top-nav-left p {
   font-size: 16px;
   color: #ffffff;
   font-weight: var(--fw-medium);
 }
+.top-nav-left ul {
+  display: flex;
+  list-style: none;
+  gap: 18px;
+}
+.top-left-social {
+  padding-left: 0px;
+}
 .fa-brands,
 .fab {
-  color: #7c7a7a;
+  color: #e7e7e7;
   opacity: 0.5;
+}
+.fa-brands:hover {
+  color: #ffffff;
+  opacity: 1;
 }
