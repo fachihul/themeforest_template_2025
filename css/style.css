@@ -16,7 +16,9 @@
     interpolate-size: allow-keywords;
   }
 }
-
+ul {
+  list-style: none;
+}
 body {
   /* 4. Add accessible line-height */
   line-height: 1.5;
@@ -83,8 +85,13 @@ h6 {
   --fw-semibold: 600;
 }
 .container {
-  max-width: 80%;
+  max-width: 90%;
   margin: 0 auto;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 /* Top Bar Start */
 .top-nav-wrapper {
@@ -115,5 +122,22 @@ h6 {
 }
 .fa-brands:hover {
   color: #ffffff;
+  opacity: 1;
+}
+.top-nav-right ul {
+  display: flex;
+  list-style: none;
+  gap: 18px;
+}
+.top-nav-right ul li {
+  font-size: var(--fw-medium);
+  font-size: 16px;
+  color: #e7e7e7;
+  opacity: 0.5;
+}
+.top-nav-right ul li .fa-location-dot {
+  font-size: 16px;
+  color: #ffffff;
+  margin-right: 8px;
   opacity: 1;
 }
