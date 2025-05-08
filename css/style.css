@@ -21,6 +21,7 @@ ul {
 }
 a {
   text-decoration: none;
+  display: inline-block;
 }
 body {
   /* 4. Add accessible line-height */
@@ -139,10 +140,9 @@ h6 {
 }
 .top-nav-right ul li:last-child {
   padding-right: 0;
-}
-.top-nav-right ul li:last-child {
   border: none;
 }
+
 .top-nav-right ul li span {
   font-size: var(--fw-medium);
   font-size: 16px;
@@ -155,9 +155,19 @@ h6 {
   margin-right: 8px;
   opacity: 1;
 }
+.bottom-nav-wrapper {
+  padding: 18px 0;
+}
 
 .bottom-nav-wrapper .logo {
   width: 180px;
+}
+.bottom-nav-wrapper div > a {
+  font-size: 16px;
+  color: #142137;
+  font-weight: var(--fw-medium);
+  padding: 20px 30px;
+  border: 1px solid #142137;
 }
 nav ul li {
   margin-left: 16px;
