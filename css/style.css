@@ -2,33 +2,33 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* 2. Remove default margin */
 * {
-  margin: 0;
+    margin: 0;
 }
 
 /* 3. Enable keyword animations */
 @media (prefers-reduced-motion: no-preference) {
-  html {
-    interpolate-size: allow-keywords;
-  }
+    html {
+        interpolate-size: allow-keywords;
+    }
 }
 ul {
-  list-style: none;
+    list-style: none;
 }
 a {
-  text-decoration: none;
-  display: inline-block;
+    text-decoration: none;
+    display: inline-block;
 }
 body {
-  /* 4. Add accessible line-height */
-  line-height: 1.5;
-  /* 5. Improve text rendering */
-  -webkit-font-smoothing: antialiased;
-  font-family: "Poppins", sans-serif;
+    /* 4. Add accessible line-height */
+    line-height: 1.5;
+    /* 5. Improve text rendering */
+    -webkit-font-smoothing: antialiased;
+    font-family: "Poppins", sans-serif;
 }
 
 /* 6. Improve media defaults */
@@ -37,8 +37,8 @@ picture,
 video,
 canvas,
 svg {
-  display: block;
-  max-width: 100%;
+    display: block;
+    max-width: 100%;
 }
 
 /* 7. Inherit fonts for form controls */
@@ -46,7 +46,7 @@ input,
 button,
 textarea,
 select {
-  font: inherit;
+    font: inherit;
 }
 
 /* 8. Avoid text overflows */
@@ -57,12 +57,12 @@ h3,
 h4,
 h5,
 h6 {
-  overflow-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 /* 9. Improve line wrapping */
 p {
-  text-wrap: pretty;
+    text-wrap: pretty;
 }
 h1,
 h2,
@@ -70,7 +70,7 @@ h3,
 h4,
 h5,
 h6 {
-  text-wrap: balance;
+    text-wrap: balance;
 }
 
 /*
@@ -78,105 +78,151 @@ h6 {
 */
 #root,
 #__next {
-  isolation: isolate;
+    isolation: isolate;
 }
 /* Start Custom CSS Here */
 :root {
-  --color-primary: #4375e7;
-  --color-background: #ffffff;
-  --color-text: #142137;
-  --fw-medium: 500;
-  --fw-semibold: 600;
+    --color-primary: #4375e7;
+    --color-background: #ffffff;
+    --color-text: #142137;
+    --fw-medium: 500;
+    --fw-semibold: 600;
 }
 .container {
-  max-width: 90%;
-  margin: 0 auto;
+    max-width: 90%;
+    margin: 0 auto;
 }
 .flex {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 /* Top Bar Start */
 .top-nav-wrapper {
-  background-color: var(--color-primary);
-  padding: 10px 0;
+    background-color: var(--color-primary);
+    padding: 10px 0;
 }
 .top-nav-left {
-  display: flex;
-  align-items: center;
-  gap: 16px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }
 .top-nav-left p {
-  font-size: 16px;
-  color: #ffffff;
-  font-weight: var(--fw-medium);
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: var(--fw-medium);
 }
 .top-nav-left ul {
-  display: flex;
-  list-style: none;
-  gap: 18px;
+    display: flex;
+    list-style: none;
+    gap: 18px;
 }
 .top-left-social {
-  padding-left: 0px;
+    padding-left: 0px;
 }
 .fa-brands,
 .fab {
-  color: #e7e7e7;
-  opacity: 0.5;
+    color: #e7e7e7;
+    opacity: 0.5;
 }
 .fa-brands:hover {
-  color: #ffffff;
-  opacity: 1;
+    color: #ffffff;
+    opacity: 1;
 }
 .top-nav-right ul {
-  display: flex;
-  list-style: none;
-  gap: 18px;
+    display: flex;
+    list-style: none;
+    gap: 18px;
 }
 .top-nav-right ul li {
-  border-right: 1px solid #a8a8a8;
-  padding-right: 16px;
+    border-right: 1px solid #a8a8a8;
+    padding-right: 16px;
 }
 .top-nav-right ul li:last-child {
-  padding-right: 0;
-  border: none;
+    padding-right: 0;
+    border: none;
 }
 
 .top-nav-right ul li span {
-  font-size: var(--fw-medium);
-  font-size: 16px;
-  color: #e7e7e7;
-  opacity: 0.5;
+    font-size: var(--fw-medium);
+    font-size: 16px;
+    color: #e7e7e7;
+    opacity: 0.5;
 }
 .top-nav-right ul li i {
-  font-size: 16px;
-  color: #ffffff;
-  margin-right: 8px;
-  opacity: 1;
+    font-size: 16px;
+    color: #ffffff;
+    margin-right: 8px;
+    opacity: 1;
 }
 .bottom-nav-wrapper {
-  padding: 18px 0;
+    padding: 18px 0;
 }
 
 .bottom-nav-wrapper .logo {
-  width: 180px;
+    width: 180px;
 }
 .bottom-nav-wrapper div > a {
-  font-size: 16px;
-  color: #142137;
-  font-weight: var(--fw-medium);
-  padding: 20px 30px;
-  border: 1px solid #142137;
+    font-size: 16px;
+    color: #142137;
+    font-weight: var(--fw-medium);
+    padding: 20px 30px;
+    border: 1px solid #142137;
 }
 nav ul li {
-  margin-left: 16px;
+    margin-left: 16px;
 }
 nav ul li i {
-  margin-left: 3px;
+    margin-left: 3px;
 }
 nav ul li a {
-  font-size: 16px;
-  color: #142137;
-  font-weight: var(--fw-medium);
+    font-size: 16px;
+    color: #142137;
+    font-weight: var(--fw-medium);
+}
+/* Hero Start */
+.hero-wrapper {
+    background-image: url("/images/Image_here.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+}
+.hero-left {
+    width: 60%;
+}
+.hero-left a {
+    background-color: var(--color-primary);
+    color: #ffffff;
+    padding: 22px 34px;
+}
+.hero-left .sub-head {
+    display: inline-block;
+    color: #ffffff;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.14);
+    display: inline-block;
+}
+.hero-left .sub-head .dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+.hero-left h1 {
+    font-size: 100px;
+    line-height: 110px;
+    letter-spacing: -2%;
+    color: #ffffff;
+    font-weight: var(--fw-semibold);
+    margin-bottom: 60px;
+}
+.hero-left p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: var(--fw-medium);
+    margin-bottom: 60px;
+    opacity: 0.7;
 }
