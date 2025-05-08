@@ -22,6 +22,7 @@ body {
   line-height: 1.5;
   /* 5. Improve text rendering */
   -webkit-font-smoothing: antialiased;
+  font-family: "Poppins", sans-serif;
 }
 
 /* 6. Improve media defaults */
@@ -74,8 +75,30 @@ h6 {
   isolation: isolate;
 }
 /* Start Custom CSS Here */
+:root {
+  --color-primary: #4375e7;
+  --color-background: #ffffff;
+  --color-text: #142137;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+}
 .container {
-  max-width: 1600px;
+  max-width: 80%;
   margin: 0 auto;
-  padding: 20px;
+}
+/* Top Bar Start */
+.top-nav-wwrapper {
+  background-color: var(--color-primary);
+  padding: 10px 0;
+}
+
+.top-nav-left p {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: var(--fw-medium);
+}
+.fa-brands,
+.fab {
+  color: #7c7a7a;
+  opacity: 0.5;
 }
