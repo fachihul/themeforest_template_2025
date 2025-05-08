@@ -96,6 +96,7 @@ h6 {
 /* Top Bar Start */
 .top-nav-wrapper {
   background-color: var(--color-primary);
+  padding: 10px 0;
 }
 .top-nav-left {
   display: flex;
@@ -130,12 +131,19 @@ h6 {
   gap: 18px;
 }
 .top-nav-right ul li {
+  border-right: 1px solid #a8a8a8;
+  padding-right: 16px;
+}
+.top-nav-right ul li:last-child {
+  border: none;
+}
+.top-nav-right ul li span {
   font-size: var(--fw-medium);
   font-size: 16px;
   color: #e7e7e7;
   opacity: 0.5;
 }
-.top-nav-right ul li .fa-location-dot {
+.top-nav-right ul li i {
   font-size: 16px;
   color: #ffffff;
   margin-right: 8px;
