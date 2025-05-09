@@ -362,6 +362,7 @@ nav ul li a {
     padding: 22px 34px;
     /* margin-right: 16px; */
     border: 1px solid #142137;
+    margin-bottom: 100px;
 }
 .about-left a .fa-solid {
     color: #142137;
