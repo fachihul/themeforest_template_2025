@@ -188,7 +188,7 @@ nav ul li a {
     padding: 80px 0;
 }
 .hero-left {
-    width: 60%;
+    /* width: 60%; */
 }
 .hero-left a {
     background-color: var(--color-primary);
@@ -196,19 +196,29 @@ nav ul li a {
     padding: 22px 34px;
 }
 .hero-left .sub-head {
-    display: inline-block;
+    /* display: inline-block; */
     color: #ffffff;
     opacity: 0.7;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     background: rgba(255, 255, 255, 0.14);
-    display: inline-block;
+    /* display: inline-block; */
+    flex-wrap: nowrap;
+    gap: 8px;
+    padding: 8px 16px;
 }
 .hero-left .sub-head .dot {
     width: 16px;
     height: 16px;
     border-radius: 50%;
     background-color: #ffffff;
+    opacity: 0.7;
+}
+.hero-left .sub-head div {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: var(--fw-medium);
+    opacity: 0.7;
 }
 .hero-left h1 {
     font-size: 100px;
@@ -225,4 +235,10 @@ nav ul li a {
     font-weight: var(--fw-medium);
     margin-bottom: 60px;
     opacity: 0.7;
+}
+.user-section .user {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
 }
