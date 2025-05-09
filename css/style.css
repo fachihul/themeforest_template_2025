@@ -189,11 +189,13 @@ nav ul li a {
 }
 .hero-left {
     /* width: 60%; */
+    padding: 170px 0 200px 0;
 }
 .hero-left a {
     background-color: var(--color-primary);
     color: #ffffff;
     padding: 22px 34px;
+    margin-right: 16px;
 }
 .hero-left .sub-head {
     /* display: inline-block; */
@@ -236,9 +238,37 @@ nav ul li a {
     margin-bottom: 60px;
     opacity: 0.7;
 }
+.btn-section {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
 .user-section .user {
+    display: flex;
+    align-items: center;
+    gap: -16px;
+}
+
+.user-section .user img {
     width: 54px;
     height: 54px;
     border-radius: 50%;
-    border: 1px solid #ffffff;
+    border: 2px solid #ffffff;
+    margin-left: -16px;
+}
+.user-section .user img:first-child {
+    margin-left: 0;
+}
+
+.rating-section .rating {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.rating-section p {
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 25px;
+    font-weight: var(--fw-medium);
+    margin-bottom: 0;
 }
