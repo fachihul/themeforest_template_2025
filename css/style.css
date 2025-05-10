@@ -608,3 +608,76 @@ nav ul li a {
 .order-process .order .order-icon {
     margin-bottom: 30px;
 }
+/* Team Section */
+.team-wrapper {
+    padding: 150px 0;
+    text-align: center;
+    /* position: relative; */
+}
+.team-wrapper .sub-head {
+    color: #142137;
+    opacity: 0.7;
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 8px;
+    padding: 8px 16px;
+    border: 1px solid rgba(20, 33, 55, 0.14);
+    text-transform: capitalize;
+    margin-bottom: 34px;
+    position: relative;
+}
+.team-wrapper .sub-head .dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #142137;
+}
+.team-wrapper h2 {
+    display: block;
+    font-size: 54px;
+    line-height: 64px;
+    letter-spacing: -2%;
+    color: #142137;
+    font-weight: var(--fw-semibold);
+    margin-inline: auto;
+    margin-bottom: 34px;
+    max-width: 757px;
+    text-align: center;
+}
+.team-wrapper p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #142137;
+    opacity: 0.7;
+    margin-top: 80px;
+}
+.team-box-wrapper {
+    margin-top: 70px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.team-box-wrapper .team-box p {
+    margin: 0;
+}
+.team-box-wrapper .team-box .name-designation {
+    width: 100%;
+    text-align: left;
+}
+.team-box-wrapper .team-box .team-box-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background: #ecf2fe;
+}
+.team-box-content div .fa-square-share-nodes {
+    font-size: 44px;
+    color: #ffffff;
+}
+.team-box-content div .fa-square-share-nodes:hover {
+    color: #4375e7;
+}
