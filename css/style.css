@@ -425,3 +425,41 @@ nav ul li a {
     border-radius: 50%;
     z-index: 1;
 }
+
+.about-right {
+    display: flex;
+    flex-direction: column;
+    gap: 110px;
+}
+.about-right .counter-wrapper {
+    display: flex;
+    gap: 24px;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.about-right .counter-wrapper .counter {
+    width: 220px;
+    height: 220px;
+    border: 1px solid rgba(20, 33, 55, 0.14);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about-right .counter-wrapper .counter h3 {
+    font-size: 50px;
+    line-height: 66px;
+    color: #142137;
+    font-weight: var(--fw-semibold);
+    margin-bottom: 0;
+}
+.about-right .counter-wrapper .counter p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #142137;
+    opacity: 0.7;
+    margin-bottom: 0;
+    max-width: 150px;
+    text-align: center;
+}
