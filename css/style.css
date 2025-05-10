@@ -463,3 +463,29 @@ nav ul li a {
     max-width: 150px;
     text-align: center;
 }
+/* Service Section */
+.service-wrapper {
+    padding: 150px 0;
+    background-color: #ecf2fe;
+}
+.service-wrapper .sub-head {
+    /* display: inline-block; */
+    color: #142137;
+    opacity: 0.7;
+    display: inline-flex;
+    align-items: center;
+    /* background: rgba(255, 255, 255, 0.14); */
+    /* display: inline-block; */
+    flex-wrap: nowrap;
+    gap: 8px;
+    padding: 8px 16px;
+    border: 1px solid rgba(20, 33, 55, 0.14);
+    border-radius: 50px;
+    text-transform: capitalize;
+}
+.service-wrapper .sub-head .dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #142137;
+}
