@@ -655,9 +655,9 @@ nav ul li a {
 .team-box-wrapper {
     margin-top: 70px;
     display: flex;
-    gap: 30px;
+    /* gap: 30px; */
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 .team-box-wrapper .team-box p {
@@ -673,6 +673,7 @@ nav ul li a {
     align-items: center;
     padding: 20px 30px;
     background: #ecf2fe;
+    height: 100px;
 }
 .team-box-content div .fa-square-share-nodes {
     font-size: 44px;
@@ -680,4 +681,53 @@ nav ul li a {
 }
 .team-box-content div .fa-square-share-nodes:hover {
     color: #4375e7;
+}
+.share-icon .team-social {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+.how-works-wrapper {
+    padding: 150px 0;
+}
+.how-works-wrapper .sub-head {
+    color: #142137;
+    opacity: 0.7;
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 8px;
+    padding: 8px 16px;
+    border: 1px solid rgba(20, 33, 55, 0.14);
+    text-transform: capitalize;
+}
+.how-works-wrapper .sub-head .dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #142137;
+}
+.how-works-wrapper h2 {
+    font-size: 54px;
+    line-height: 64px;
+    letter-spacing: -2%;
+    color: #142137;
+    font-weight: var(--fw-semibold);
+    margin-bottom: 0px;
+    width: 300px;
+}
+.how-works-wrapper p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #142137;
+    opacity: 0.7;
+    margin-bottom: 0;
+}
+
+.how-works-wrapper .how-works-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    flex-wrap: nowrap;
+    border-bottom: 1px solid rgba(20, 33, 55, 0.14);
 }
