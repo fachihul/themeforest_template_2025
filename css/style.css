@@ -820,3 +820,13 @@ nav ul li a {
   max-width: 603px;
   margin-inline: auto;
 }
+.pricing-box-wrapper .pricing-box-upper {
+  max-width: 378px;
+  display: flex;
+  justify-content: space-between;
+  padding: 29px 29px 92px 29px;
+  background-color: #ecf2fe;
+}
+.pricing-box-wrapper .pricing-box-upper h4 {
+  font-size: 24px;
+}
