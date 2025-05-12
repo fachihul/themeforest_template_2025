@@ -830,3 +830,27 @@ nav ul li a {
 .pricing-box-wrapper .pricing-box-upper h4 {
   font-size: 24px;
 }
+
+.pricing-box-lower i {
+  padding: 8px;
+  background-color: #4375e7;
+  border-radius: 50%;
+  color: #ffffff;
+}
+.pricing-box-lower .list {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  /* margin-top: -30px;
+  max-width: 318px;
+  padding: 16px;
+  background-color: #ffffff;
+  border: 1px solid rgba(20, 33, 55, 0.14); */
+}
+
+.pricing-box-lower .list p {
+  font-size: 16px;
+  line-height: auto;
+  color: #142137;
+  margin-bottom: 0;
+}
