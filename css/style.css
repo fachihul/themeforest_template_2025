@@ -789,10 +789,7 @@ nav ul li a {
   padding: 0;
 }
 /* Pricing Section */
-.pricing-wrapper {
-  padding: 150px 0;
-  text-align: center;
-}
+
 .pricing-wrapper .sub-head {
   color: #142137;
   opacity: 0.7;
@@ -830,6 +827,21 @@ nav ul li a {
 .pricing-box-wrapper .pricing-box-upper h4 {
   font-size: 24px;
 }
+.pricing-box-wrapper .pricing-box-lower {
+  max-width: 318px;
+  min-height: 210px;
+  border: 1px solid rgba(20, 33, 55, 0.14);
+  padding: 16px 16px 0 16px;
+  margin-top: -30px;
+  background-color: #ffffff;
+}
+
+.pricing-box-wrapper .pricing-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 
 .pricing-box-lower i {
   padding: 8px;
@@ -839,7 +851,7 @@ nav ul li a {
 }
 .pricing-box-lower .list {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   gap: 16px;
   /* margin-top: -30px;
   max-width: 318px;
@@ -850,7 +862,11 @@ nav ul li a {
 
 .pricing-box-lower .list p {
   font-size: 16px;
+  line-height: 28px;
   line-height: auto;
   color: #142137;
+  opacity: 0.7;
   margin-bottom: 0;
+  text-align: left;
+  margin-bottom: 16px;
 }
