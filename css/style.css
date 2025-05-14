@@ -1042,3 +1042,11 @@ nav ul li a {
   max-width: 326px;
   margin-top: 24px;
 }
+/* Footer Section */
+footer {
+  background-color: #142137;
+  padding: 150px 0;
+}
+.footer-wrapper {
+  color: #ffffff;
+}
