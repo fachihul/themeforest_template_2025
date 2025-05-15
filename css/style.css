@@ -89,7 +89,7 @@ h6 {
   --fw-semibold: 600;
 }
 .container {
-  max-width: 90%;
+  max-width: 1600px;
   margin: 0 auto;
 }
 .flex {
