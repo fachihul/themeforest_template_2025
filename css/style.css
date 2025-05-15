@@ -1053,6 +1053,7 @@ footer {
   gap: 60px;
   justify-content: space-between;
   flex-wrap: wrap;
+  /* margin-bottom: 110px; */
 }
 .footer-wrapper .footer-icon {
   display: flex;
