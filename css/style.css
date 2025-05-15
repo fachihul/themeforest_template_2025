@@ -1051,6 +1051,8 @@ footer {
   color: #ffffff;
   display: flex;
   gap: 60px;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .footer-wrapper .footer-icon {
   display: flex;
