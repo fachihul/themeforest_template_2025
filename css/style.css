@@ -1149,3 +1149,25 @@ footer {
   line-height: 24px;
   margin-bottom: 22px;
 }
+.footer-newsletter .footer-socials {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-top: 30px;
+}
+.footer-newsletter .footer-socials i {
+  font-size: 18px;
+  width: 36px;
+  height: 36px;
+  color: #ffffff;
+  padding: 16px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-newsletter .footer-socials i:hover {
+  background-color: #4375e7;
+  color: #ffffff;
+}
